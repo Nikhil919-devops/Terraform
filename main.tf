@@ -1,4 +1,4 @@
 resource "local_file" "my_pets" {
- filename = "/home/ec2-user/tmp/pets.txt"
+ filename = "/home/ec2-user/pets.txt"
  content = "I love Pets !" 
 }
